@@ -2,6 +2,5 @@
 __pycache__/
 *.pyc
 data/*.csv
-artifacts/
 .pytest_cache/
 .DS_Store
