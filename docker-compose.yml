@@ -1,0 +1,7 @@
+# Bonus : lancement de l'API en une commande -> `docker compose up`.
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
